@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pizza-item {
+    width: 23%;
+    display: inline-block;
+    margin: 0 10px 20px;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pizza-item h3 {
+    color: #e74c3c;
+    margin-bottom: 5px;
+}
+
+.pizza-item p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pizza-item form {
+    margin-top: 10px;
+}
+
+.pizza-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pizza-item button:hover {
+    background-color: #c0392b;
+}

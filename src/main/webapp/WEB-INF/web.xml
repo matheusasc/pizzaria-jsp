@@ -1,0 +1,37 @@
+<web-app>
+    <servlet>
+        <servlet-name>MenuServlet</servlet-name>
+        <servlet-class>com.example.pizzaria.servlets.MenuServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MenuServlet</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CarrinhoServlet</servlet-name>
+        <servlet-class>com.example.pizzaria.servlets.CarrinhoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarrinhoServlet</servlet-name>
+        <url-pattern>/carrinho</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PedidoServlet</servlet-name>
+        <servlet-class>com.example.pizzaria.servlets.PedidoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PedidoServlet</servlet-name>
+        <url-pattern>/pedido</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.example.pizzaria.servlets.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+</web-app>
